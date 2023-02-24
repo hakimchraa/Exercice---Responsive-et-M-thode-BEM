@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0f1457a20a.js" crossorigin="anonymous"></script>
+    <link href="https://kit.fontawesome.com/0f1457a20a.js" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -17,9 +17,9 @@
 <body>
     <header class="entete-global">
         <nav class="entete-global__nav_links">
-            <img class="entete-global__nav_links__logo-entete" src="/images/logo-entete.png" alt="logo">
+            <img class="entete-global__logo-entete" src="/images/logo-entete.png" alt="logo">
             <div id="icone"><i class="fa-solid fa-list"></i></div>
-            <div class="entete-global__nav_links__menu">
+            <div class="entete-global__menu">
                 <a href="accueil">Accueil</a><br>
                 <a href="Contact">Contact</a>
             </div>
@@ -36,28 +36,27 @@
                 créer
                 des visuels
                 attractifs.</h2>
-            <div class="main__section__item-menu">
-                <article class="main__section__item-menu__icone">
-                    <img class="icone" src="/images/icone1.png" alt="icone">
-                    <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous
-                        réalisons des visuels dont vous serez fiers.</p>
-                </article>
-            </div>
-            <article>
-                <div class="main__section__item-menu__Strategie">
-                    <img class="icone" src="/images/icone2.png" alt="icone">
-                    <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos
-                        objectifs et nous nous adaptons à vos besoins.</p>
 
-                </div>
+            <article class="main__section-globale__article">
+                <img class="icone" src="/images/icone1.png" alt="Graphisme">
+                <h1>GRAPHISME</h1>
+                <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous
+                    réalisons des visuels dont vous serez fiers.</p>
             </article>
-            <article>
-                <div class="main__section__item-menu__Illustrations">
-                    <img class="icone" src="/images/icone3.png" alt="icone">
-                    <p>Nos graphistes vous proposerons des illustrations 100 % originales.</p>
 
-                </div>
+            <article class="main__section-globale__article">
+                <img class="icone" src="/images/icone2.png" alt="Strategie">
+                <h1>STRATEGIE</h1>
+                <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos
+                    objectifs et nous nous adaptons à vos besoins.</p>
             </article>
+
+            <article class="main__section-globale__article">
+                <img class="icone" src="/images/icone3.png" alt="Illustrations">
+                <h1>ILLUSTRATIONS</h1>
+                <p>Nos graphistes vous proposerons des illustrations 100 % originales.</p>
+            </article>
+
             <article>
                 <p>“Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des
                     besoins et m’ont permis de renouveler complétement la carte de mon restaurant.”</p>
@@ -66,37 +65,36 @@
 
         </section>
     </main>
-    <footer class="footer">
+
+    <footer>
         <p>Mon petit graphisme - Agence de graphisme basée à Paris</p>
         <div class="footer__reseausociaux">
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-instagram"></i>
         </div>
-        <div class="footer__items">
-            <section>
+        
+            <section class="footer__items">
                 <h3>Accès rapides</h3>
                 <ul>
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </section>
-            <section>
+            
                 <h3>A propos</h3>
                 <ul>
-                    <li> <a href="#">Données personnelles</a></li>
+                    <li><a href="#">Données personnelles</a></li>
                     <li><a href="#">Mentions légales</a></li>
                     <li><a href="#">Cookies</a></li>
                 </ul>
-            </section>
-            <section>
+            
                 <h3>Coordonnées</h3>
-                <p> 10 Quai de la Charente
-                    75019 Paris
+                <p> 10 Quai de la Charente <br>
+                    75019 Paris <br>
                     01 23 45 67 89
                 </p>
             </section>
-        </div>
+        
     </footer>
 
 </body>
